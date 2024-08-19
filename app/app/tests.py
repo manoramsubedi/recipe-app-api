@@ -1,4 +1,3 @@
-
 """
 Sample Test
 """
@@ -15,4 +14,4 @@ class CalcTest(SimpleTestCase):
     def test_sub_num(self):
         res = calc.sub(10, 15)
         self.assertEqual(res, 5)
-        
+
